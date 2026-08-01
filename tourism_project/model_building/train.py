@@ -43,10 +43,10 @@ print("Test Shape  :", test_df.shape)
 
 TARGET = "ProdTaken"
 
-X_train = train_df.drop(columns=[TARGET])
+X_train = train_df.drop(columns=[TARGET, "Unnamed: 0"])
 y_train = train_df[TARGET]
 
-X_test = test_df.drop(columns=[TARGET])
+X_test = test_df.drop(columns=[TARGET, "Unnamed: 0"])
 y_test = test_df[TARGET]
 
 # ----------------------------------------------------------
