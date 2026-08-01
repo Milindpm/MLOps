@@ -17,7 +17,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🏖 Wellness Tourism Package Prediction")
+st.title("Wellness Tourism Package Prediction")
 
 st.write(
     "Enter the customer details below to predict whether "
